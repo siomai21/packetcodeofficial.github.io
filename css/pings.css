@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body {
+   line-height: 1.8;
+   color: #000000;
+   font-size: 15px;
+   font-family: 'Lato', sans-serif;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+   font-weight: 700;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #000000;
+   position: relative;
+}
+
+.title-sm {
+   font-size: 16px;
+   letter-spacing: 1px;
+}
+
+a {
+   font-weight: 700;
+   transition: all 0.4s ease;
+   text-decoration: none;
+}
+
+img {
+   width: 100%;
+}
+
+small {
+   font-size: 12px;
+   letter-spacing: 2px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+section {
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+.navbar {
+   border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.logo-text {
+   font-size: 22px;
+   text-transform: uppercase;
+   color: #000000 !important;
+}
+.logo-text1 {
+   font-size: 22px;
+   text-transform: uppercase;
+   color: #000000 !important;
+}
+.navbar .nav-link {
+   color: #000000;
+   font-size: 12px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+   color: #000000;
+}
+
+#home {
+   background:  url(../img/j1.jpg);
+   min-height: 100vh;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   display: flex;
+   align-items: center;
+}
+
+#home h1 {
+   font-weight: 700;
+   margin-top: -30px;
+	margin-right: 650px; 
+}
+
+#home p {
+   max-width: 550px;
+   margin: 18px auto;
+}
+
+.btn {
+   font-weight: 700;
+   font-size: 12px;
+   text-transform: uppercase;
+   padding: 12px 28px;
+   border-radius: 0;
+}
+
+.btn-brand {
+   background-color: #000000;
+   color: #fff;
+}
+
+.btn-brand:hover {
+   background-color: dimgray;
+   color: rgb(2, 2, 2);
+}
+.section-intro {
+   text-align: center;
+   margin-bottom: 60px;
+}
+
+.section-intro .hline {
+   width: 120px;
+   height: 2px;
+   background-color: black;
+   margin: 16px auto 0 auto;
+}
+#cta {
+   background-color: rgb(255, 137, 204);
+}
+
+.footer-top {
+   padding-top: 80px;
+   padding-bottom: 30px;
+}
+
+.footer-bottom {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   border-top: rgb(0, 0, 0);
+}
+
+footer .footer-links a,
+footer .social-icons a {
+   color: black;
+}
+
+footer .social-icons a {
+   font-size: 24px;
+}
+
+footer .footer-links a {
+   display: block;
+   font-weight: 400;
+}
+
+footer .social-icons a:hover,
+footer .footer-links a:hover {
+   color: #6e6e6e;
+}
+.categories{
+   margin: 70px 0;
+}
+.small-container{
+   max-width: 1080px;
+   margin: auto;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+.col-4{
+   flex-basis: 25%;
+   padding: 10px;
+   min-width: 200px;
+   margin-bottom: 50px;
+   transition: transform 0.5s;
+}
+.col-4 img{
+   width: 100%;
+}
+.col-x{
+   flex-basis: 25%;
+   padding: 10px;
+   min-width: 200px;
+   margin-top: -170px;
+   margin-bottom: 50px;
+   transition: transform 0.5s;
+}
+.col-x img{
+   width: 100%;
+   margin-top: 79px;
+}
+.title3 i{
+   transition: transform 0.5s;
+   color: palevioletred;
+}
+.title3 i:hover{
+   transform: scale(1.5); 
+}
+.title{
+   margin-top: 50px;
+   text-align: center;
+   position: relative;
+   line-height: 60px;
+   color: #555;
+}
+.title i{
+   transition: transform 0.5s;
+   color: palevioletred;
+}
+.title i:hover{
+   transform: scale(1.5); 
+}
+.title a{
+   transition: transform 0.5s;
+}
+.title a:hover{
+   transform: translateY(-5px);
+}
+
+.title::after{
+   content: '';
+   background: #5f2821;
+   width: 80px;
+   height: 5px;
+   border-radius: 5px;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+}
+.col-4 p{
+   font-size: 15px;
+}
+.col-4:hover{
+      transform: translateY(-5px);
+}
+.col-x p{
+   font-size: 15px;
+   position: relative;
+}
+.col-x:hover{
+   transform: translateY(-5px);
+}
+.offer{
+   background: radial-gradient(rgb(183, 183, 183),#5b5a5b);
+   margin-top: 70px;
+   padding: 30px 0;
+}
+.col-6{
+   transition: transform 0.5s;
+   background: radial-gradient(rgb(159, 156, 156),#ffffff);
+}
+.col-6 .offer-img{
+   padding: 50px;
+}
+.col-6 p{
+   margin-top: 100px;
+}
+.small{
+   color: #555;
+}
+
+.testimonials{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding: 40px 0;
+   background: #f1f1f1;
+   color: #434343;
+   text-align: center;
+}
+.inner{
+   max-width: 1200px;
+   margin: auto;
+   overflow: hidden;
+   padding: 0 20px;
+}
+.row1{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.col{
+   flex: 33.33%;
+   max-width: 33.33%;
+   box-sizing: border-box;
+   padding: 15px;
+   color: #000;
+}
+.testimonial{
+   background: rgb(86, 85, 85);
+   padding: 30px;
+}
+.testimonial h6{
+   color: white;
+}
+.testimonial small{
+   color: #fff;
+}
+.testimonials{
+   background-color: #fff;
+}
+.testimonials img{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+}
+@media screen and (max-width:600px) {
+   .col{
+      flex: 100%;
+      max-width: 100%;
+   } 
+}
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 10%;
+}
+
+.nav1{
+   list-style: none;
+}
+
+.nav1 li{
+   display: inline-block;
+   padding: 0px 20px;
+}
+.nav1 li a{
+   transition: all 0.3s ease 0s;
+}
+.nav1 li a:hover{
+   color: #5f2821;
+}
+.zoom {
+   padding: 50px;
+   transition: transform .2s;
+   width: 200px;
+   height: 200px;
+   margin: 0 auto;
+ }
+ .zoom img{
+   margin-top: -120px;
+   transition: 0.5s all ease-in-out;
+ }
+ 
+ .zoom:hover img{
+   -ms-transform: scale(1.5); /* IE 9 */
+   -webkit-transform: scale(1.5); /* Safari 3-8 */
+   transform: scale(1.5); 
+ }
+ .gilid{
+   padding-top: 30px;
+   position: absolute;
+ }
+ body {
+	animation: transitionIn 0.2s;
+}
+
+@keyframes transitionIn {
+	from{
+		opacity: .6;
+		transform: translateY(-20px);
+	}
+
+	to {
+		opacity: 5;
+		transform: translateY(0);
+}
+}
+.small-img-group{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 0px;  
+}
+.col-lg-5{
+   margin-top: -10px;
+}
+.row-mt-5{
+   background: radial-gradient(rgb(183, 183, 183),#5b5a5b);  
+}
